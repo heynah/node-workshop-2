@@ -43,7 +43,7 @@ function id(x,ret) {
 
 // console.log(id("word"))
 
-*/
+
 
 // var firstLetter = function(string){
 //     return string.substr(0,1);
@@ -74,7 +74,8 @@ cpsLastLetter("String-a", ccLog)
 // }
 
 function getFirstAndLast(string, ret) {
-    ret((string[0]) + (string[string.length-1]))
+    ret(string[0]);
+    ret(string[string.length-1]);
 }
 
 // getFirstAndLast('Hello I', function(newStr) { console.log(newStr); })
@@ -82,6 +83,11 @@ function getFirstAndLast(string, ret) {
 getFirstAndLast('Hello I', ccLog);
 
 
+*/
+
+var fortune = require("./library/fortune.js");
+
+fortune();
 
 
 
