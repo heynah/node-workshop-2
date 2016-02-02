@@ -69,15 +69,17 @@ cpsLastLetter("String-a", ccLog)
 
 //getFirstAndLast("hello", function(newStr) { console.log(newStr); }); // should output "ho"
 
-function newStrFun(newStr) {
-    console.log(newStr);
-}
+// function newStrFun(newStr) {
+//     console.log(newStr);
+// }
 
 function getFirstAndLast(string, ret) {
-    ret((string[0])+(string[string.length-1]))
+    ret((string[0]) + (string[string.length-1]))
 }
 
-getFirstAndLast('Hello I', newStrFun)
+// getFirstAndLast('Hello I', function(newStr) { console.log(newStr); })
+
+getFirstAndLast('Hello I', ccLog);
 
 
 

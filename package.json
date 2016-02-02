@@ -1,0 +1,28 @@
+{
+  "name": "workspace",
+  "version": "0.0.1",
+  "description":"",
+  "main": "cps.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heynah/node-workshop-2.git"
+  },
+  "keywords": [
+    "CPS",
+    "Function",
+    "non-blocking",
+    "progrmming",
+    "asynchronous",
+    "decodeMTL",
+    "bootcamp"
+  ],
+  "author": "Hanna <hanna.nicol@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/heynah/node-workshop-2/issues"
+  },
+  "homepage": "https://github.com/heynah/node-workshop-2#readme"
+}
